@@ -8,7 +8,7 @@ step, no external assets.
   works, the open-source engine, the batch server, FAQ).
 - `pricing.html` — the pilot / "work with us" page.
 - `styles.css` — shared styles; light and dark, responsive.
-- `CNAME` — custom domain for GitHub Pages (`recalc.elektraset.com`).
+- `CNAME` — custom domain for GitHub Pages (`recalc.tech`).
 
 ## Numbers
 
