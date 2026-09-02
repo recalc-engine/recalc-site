@@ -1,22 +1,22 @@
-# Recalc — product site
+# Recalc Verify — product site
 
-Static marketing site for Recalc, the headless Excel-compatible calculation
-engine. Two hand-written pages plus one stylesheet, self-contained, no build
-step, no external assets.
+Static site for Recalc Verify, the local-first spreadsheet verification
+command built on the open-source Recalc calculation engine. Hand-written
+pages plus one stylesheet, self-contained, no build step, no external assets.
 
-- `index.html` — landing page (the trust property, measured fidelity, how it
-  works, the open-source engine, the batch server, FAQ).
-- `pricing.html` — the pilot / "work with us" page.
+- `index.html` — landing page (the one-command workflow, evidence labels,
+  privacy model, production enquiry).
+- `pricing.html` — production enquiry page (no published price).
+- `privacy.html`, `security.html` — data-flow statement and security contact.
 - `styles.css` — shared styles; light and dark, responsive.
-- `CNAME` — custom domain for GitHub Pages (`recalc.elektraset.com`).
+- `CNAME` — custom domain for GitHub Pages (`recalc.tech`).
 
-## Numbers
+## Claims
 
-Every figure on the site is measured, not asserted. The fidelity numbers are the
-v3 result set (FUSE corpus, 3,640 workbooks, 5,667,851 formula cells with an
-oracle value), the same set published on the Sheetmark benchmark. If a number
-changes, it changes because a new measured result set replaced it — never edited
-in place to look better.
+Every statement on the site must be backed by an artifact in the public
+engine repository (a command, a file, a schema) at the commit the site links
+to. The site publishes no fidelity percentages; measured results belong with
+their receipts in the engine repository, never edited in place.
 
 ## Local preview
 
